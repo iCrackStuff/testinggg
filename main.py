@@ -6,13 +6,6 @@ import hashlib
 from datetime import datetime, timedelta
 import requests
 
-# MongoDB Configuration
-MONGO_URI = "mongodb+srv://hknoopie:5g0tmT3jnhTojDln@cluster0.89cgwoi.mongodb.net/"  # Change this to your MongoDB URI
-DB_NAME = "simswap_db"
-COLLECTION_KEYS = "auth_keys"
-COLLECTION_NUMBERS = "called_numbers"
-ADMIN_PASSWORD = "fraudisontop"
-
 # Initialize MongoDB connection
 @st.cache_resource
 def init_mongodb():
