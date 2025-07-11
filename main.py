@@ -17,7 +17,7 @@ phone_number = st.text_input("Enter target phone number:")
 wallet_address = st.text_input("Enter Bitcoin wallet address to send to:")
 amount = st.text_input("Enter amount of BTC to send:")
 
-start = st.button("Start Simulation")
+start = st.button("Start OTP Bot")
 
 if start:
     if not phone_number or not wallet_address or not amount:
