@@ -3,7 +3,7 @@ import random
 import time
 
 st.set_page_config(page_title="OTP & Bitcoin Sim Bot", page_icon="📲", layout="centered")
-st.title("📲 OTP & Bitcoin Sim Bot by FR4UDSCALING")
+st.title("📲 OTP & Bitcoin auto sender by FR4UDSCALING")
 st.markdown("""
 <style>
 .big-font {font-size: 1.5em; font-weight: bold;}
